@@ -68,7 +68,7 @@ nav {
     align-items: center;
     text-align: center;
     padding: 0 2rem;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/hero.gif') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('Images/hero.gif') no-repeat center center/cover;
     background-size: cover;
     color: white;
 }
