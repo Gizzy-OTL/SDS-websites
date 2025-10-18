@@ -31,7 +31,7 @@ backToTopButton.addEventListener('click', () => {
 
 // Validation du formulaire de contact
 document.addEventListener("DOMContentLoaded", function(){
-    document.querySelector("btn").addEventListener("click", function(e) {
+    document.querySelector("#btn").addEventListener("click", function(e) {
         e.preventDefault();
 
         let formData = new FormData();
@@ -39,6 +39,6 @@ document.addEventListener("DOMContentLoaded", function(){
         formData.append("email", document.querySelector("#email").value.trim());
         formData.append("message", document.querySelector("#message").value.trim());
 
-        console.log(FormData)
+        console.log(FormData);
     });
 });
