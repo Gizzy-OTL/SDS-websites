@@ -1,16 +1,8 @@
-# SDS-websites
-Welcome to SDS-Websites, a collection of web development projects and resources.
+# SDS-websites 🇫🇷
+Bienvenue sur SDS-Websites, une collection de projets de développement web.
 
-## Overview
-This repository contains various web development projects, templates, and tools created by SDS.
-
-## Contents
-- Web templates
-- Code snippets
-- Development resources
+## Aperçu
+Ce dépôt contient divers projets de développement web créés par SDS.
 
 ## Contact
-For questions or support, please create an issue in the repository or contact us.
-
-## About us
-We are a French web developers team 🟦⬜🟥
+Pour toute question ou assistance, créez une issue dans le dépôt ou contactez-nous.
