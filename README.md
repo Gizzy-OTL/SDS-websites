@@ -9,10 +9,8 @@ This repository contains various web development projects, templates, and tools 
 - Code snippets
 - Development resources
 
-## Requirements
-- Modern web browser
-- Basic understanding of HTML/CSS/JavaScript
-
 ## Contact
 For questions or support, please create an issue in the repository or contact us.
 
+## About us
+We are a French web developers team 🟦⬜🟥
