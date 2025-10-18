@@ -31,7 +31,7 @@ backToTopButton.addEventListener('click', () => {
 
 // Validation du formulaire de contact
 document.addEventListener("DOMContentLoaded", function(){
-    ducument.querySelector("btn").addEventListener("click", function(e) {
+    document.querySelector("btn").addEventListener("click", function(e) {
         e.preventDefault();
 
         let formData = new FormData();
