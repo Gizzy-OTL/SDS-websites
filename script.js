@@ -30,25 +30,12 @@ backToTopButton.addEventListener('click', () => {
 });
 
 // Validation du formulaire de contact
-const contactForm = document.getElementById('contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const name = contactForm.querySelector('input[type="text"]').value;
-        const email = contactForm.querySelector('input[type="email"]').value;
-        const message = contactForm.querySelector('textarea').value;
+document.addEventListener("DOMContentLoaded", function(){
+    ducument.querySelector("btn").addEventListener("click", function(event){
+        event.preventDefault();
 
-        if (!name || !email || !message) {
-            alert('Veuillez remplir tous les champs.');
-            return;
-        }
-
-        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-            alert('Veuillez entrer un email valide.');
-            return;
-        }
-
-        alert('Message envoyé avec succès !');
-        contactForm.reset();
-    });
-}
+        let formData = new FormData();
+        formData.append("name", document.querySelector("#name").value.trim());
+        formData.append("email", document.querySelector("#email").value.trim());
+        formData.append("message", document.querySelector("#message").value.trim());
+})
