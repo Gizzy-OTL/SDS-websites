@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let formData = new FormData();
         formData.append("name", document.querySelector("#nom").value.trim());
         formData.append("email", document.querySelector("#email").value.trim());
-        formData.append("message", document.querySelector("#message").value.trim());
+        formData.append("message", document.querySelector("#text").value.trim());
 
         console.log(FormData);
     });
