@@ -35,10 +35,24 @@ document.addEventListener("DOMContentLoaded", function(){
         e.preventDefault();
 
         let formData = new FormData();
-        formData.append("name", document.querySelector("#nom").value.trim());
+        formData.append("prenom", document.querySelector("#prenom").value.trim());
+        formData.append("nom", document.querySelector("#nom").value.trim());
         formData.append("email", document.querySelector("#email").value.trim());
         formData.append("message", document.querySelector("#text").value.trim());
 
         console.log(formData)
+        fetch("send_mail.php", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            alert(data.message);
+            document.querySelector("#contact-form").reset();
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            alert("Une erreur est survenue. Veuillez réessayer plus tard.");
+        });
     });
 });
