@@ -50,9 +50,5 @@ document.addEventListener("DOMContentLoaded", function(){
             alert(data.message);
             document.querySelector("#contact-form").reset();
         })
-        .catch(error => {
-            console.error("Error:", error);
-            alert("Une erreur est survenue. Veuillez réessayer plus tard.");
-        });
     });
 });
