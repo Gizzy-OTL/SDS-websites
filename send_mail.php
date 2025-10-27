@@ -14,7 +14,7 @@
             echo json_encode(["status" => "error", "message" => "Adresse e-mail invalide."]);
             exit;
         }
-        $to = louisgizard@gmail.com;
+        $to = "louisgizard@gmail.com";
         $subject ="[SDS-Websites] nouveau message de $prenom $nom";
         $headers ="From: $email\r\n";
         $headers .="Reply-To: $email\r\n";
